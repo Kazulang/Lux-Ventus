@@ -3,4 +3,48 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background-color: #F9F9F9;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 84px 47px 37px;
+}
+
+.nav{
+    display: flex;
+    gap: 55px;
+    margin-left: 180px;
+
+}
+
+.nav a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #262626;
+    padding: 10px;
+}
+
+/* header */
+
+/* main */
+
+/* main */
+
+/* footer */
+
+/* footer */
