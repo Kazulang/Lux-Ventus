@@ -47,6 +47,45 @@ body{
 
 /* main */
 
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(/assets/first-section-img.png);
+    background-repeat: no-repeat;
+    max-width: 1272px;
+    height: 559px;
+    padding: 218px 588px 141px 57px;
+    border-radius: 20px;
+}
+
+.first-section-content h6{
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+.first-section-content h1{
+    font-weight: 400;
+    font-size: 46px;
+    color: white;
+}
+
+.first-section-content span{
+    font-weight: 700;
+    font-size: 46px;
+    background: linear-gradient(to right, #5DF2D6, #5D9CF2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first-section-content p{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    max-width: 494px;
+}
+
 /* main */
 
 /* footer */
