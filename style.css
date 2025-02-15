@@ -14,6 +14,7 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 84px;
 }
 
 /* header */
@@ -22,7 +23,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 37px 84px 47px 37px;
+    padding-top: 37px;
+    padding-bottom: 47px;
 }
 
 .header img{
