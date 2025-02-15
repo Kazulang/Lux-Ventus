@@ -25,6 +25,10 @@ body{
     padding: 37px 84px 47px 37px;
 }
 
+.header img{
+    cursor: pointer;
+}
+
 .nav{
     display: flex;
     gap: 55px;
