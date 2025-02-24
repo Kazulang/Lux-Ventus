@@ -33,9 +33,7 @@ body{
 }
 
 .search p{
-    transform: translateY(-200%);
     display: none;
-    
 }
 
 .search-icon{
@@ -250,7 +248,6 @@ body{
     align-items: center;
     gap: 10px;
     padding-top: 20px;
-    padding-bottom: 8px;
 }
 
 .search p{
@@ -271,6 +268,7 @@ body{
     transform: translateY(0);
     opacity: 1;
     pointer-events: auto;
+    padding: 10px;
 }
 
 /* main */
