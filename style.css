@@ -178,6 +178,117 @@ body{
 
 /* second section */
 
+/* third section */
+
+.latest-trending{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 97px;
+}
+
+.latest-trending-top{
+    background: url(/assets/section3Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    max-height: 381px;
+    height: 100vh;
+    border-radius: 24px;
+}
+
+.latest-trending-top p{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 81px;
+    background-color: rgba(38, 38, 38, 1);
+    max-width: fit-content;
+    margin-top: 23px;
+    margin-left: 47px;
+    border-radius: 40px;
+}
+
+.latest-trending-bottom{
+    padding: 28px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.upload-info{
+    display: flex;
+    align-items: center;
+}
+
+.littleface-info{
+    display: flex;
+    align-items: center;
+    gap: 185px;
+}
+
+.littleface-info p{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(188, 188, 188, 1);
+}
+
+.littleface{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.date{
+
+}
+
+.hot-text{
+    color: rgba(242, 94, 94, 1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    margin-left: 380px;
+}
+
+.latest-trending-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.latest-trending-content h3{
+    font-weight: 700;
+    font-size: 26px;  
+    color: rgba(38, 38, 38, 1);
+}
+
+.latest-trending-content p{
+    max-width: 781px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(38, 38, 38, 1);
+}
+
+.read-more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.read-more p{
+    font-weight: 700;
+    font-size: 12px;
+    color: rgba(76, 224, 215, 1);
+    letter-spacing: 2px;
+}
+
+/* third section */
+
 /* main */
 
 /* footer */
@@ -204,6 +315,10 @@ body{
 
     .header{
         gap: 0px;
+    }
+
+    .hot-text{
+        margin-left: 225px;
     }
 }
 
@@ -283,6 +398,33 @@ body{
 
 }
 
+@media(max-width:835px){
+
+    .littleface-info{
+        gap: 80px;
+    }
+
+    .hot-text{
+        margin-left: 135px;
+    }
+}
+
+@media(max-width:585px){
+
+    .latest-trending-bottom {
+        padding: 28px 30px;
+    }
+
+    .littleface-info {
+        gap: 20px;
+    }
+
+    .hot-text{
+        margin-left: 50px;
+    }
+
+}
+
 @media(max-width:435px){
 
     .container{
@@ -292,5 +434,9 @@ body{
 
     .logo{
         max-width: 150px;
+    }
+
+    .hot-text{
+        display: none;
     }
 }
