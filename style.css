@@ -76,7 +76,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-image: url(/assets/first-section-img.png);
+    background-image: url(./assets/first-section-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -188,7 +188,7 @@ body{
 }
 
 .latest-trending-top{
-    background: url(/assets/section3Background.png);
+    background: url(./assets/section3Background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -318,7 +318,7 @@ body{
 }
 
 .trending-card-top{
-    background: url(/assets/trendingCard1.png);
+    background: url(./assets/trendingCard1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -328,7 +328,7 @@ body{
 }
 
 .trending-card-top-second{
-    background: url(/assets/trendingCard2.png);
+    background: url(./assets/trendingCard2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
